@@ -1,0 +1,73 @@
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+
+.welcome {
+  text-align: center;
+  padding: 50px;
+}
+
+.welcome__image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome__image img {
+  width: 40%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:   
+ 16px;
+}
+
+.reviews {
+  text-align: center;
+  padding: 50px;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-card {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.review-card img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-us {
+  text-align: center;
+  padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+

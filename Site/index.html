@@ -8,6 +8,11 @@
     <title>Региональный   
  аэропорт Самолет</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -27,14 +32,20 @@
 		                <li><a href="#">Отзывы</a></li>
 		            </ul>
         		</nav>
-        		<h1>Региональный аэропорт</h1>
+        		<div name="texts">
+        			<h1>Региональный аэропорт</h1>
+        			<h2>Самолёт</h2>
+        		</div>
+        		
         	</header>
         	</div>
         	
         	<main name="hero_main">
-		        <img src="http://placehold.it/600x300" alt="">
+		        
 		        <p>Перелеты на самолетах и вертолетах. Бронирование по телефону</p>
-		        <button>Забронировать билет</button>
+		        <div name="button_div">
+		        	<button>Забронировать билет</button>
+		        </div>
     		</main>
         </section>
         
@@ -43,35 +54,39 @@
 	  		<div class="welcome_content">
 			    <h2>Добро пожаловать в региональный аэропорт Самолет</h2>
 			    <p>Мы обеспечиваем удобные и безопасные перелеты на самолетах и вертолетах различных моделей. Узнай больше о нашем расписании.</p>
-			    <a href="#" class="btn">Расписание рейсов</a>
+			    
 	  		</div>
 	  		<div class="welcome__image">
-			    <img src="http://placehold.it/100x100" alt="Самолет на взлетной полосе">
-			    <img src="http://placehold.it/100x100" alt="Терминал аэропорта">
+			    <img src="img/raspisanie_v1.jpg" alt="Самолет на взлетной полосе">
+			    <img src="img/raspisanie_v3.jpg" alt="Терминал аэропорта">
 	  		</div>
+	  		<button><a href="#" class="btn">Расписание рейсов</a></button>
         </section>
         <!-- Секция экрана отзывов-->
         <section class="reviews">
-        	<h2>Отзывы наших клиентов</h2>
-  			<p>Что говорят о нас</p>
+        	<div name="reviews_text">
+        		<h2>Отзывы наших клиентов</h2>
+  				<p>Что говорят о нас</p>
+        	</div>
+        	
 		    <div class="review-cards">
 			    <div class="review-card">
-				    <img src="avatar1.jpg" alt="Аватар Алексея">
+				    <img src="img/photo_review/photo_1.jpg" alt="Аватар Алексея">
 				    <p>Быстрое и удобное бронирование билетов. Отличная поддержка клиентов!</p>
-				    <p>Алексей</p>
+				    <p name="name_1">Алексей</p>
 			    </div>
 			    <div class="review-card">
-				    <img src="avatar2.jpg" alt="Аватар Ольги">
+				    <img src="img/photo_review/photo_2.jpg" alt="Аватар Ольги">
 				    <p>Прекрасное обслуживание и доступные цены.</p>
-				    <p>Ольга</p>
+				    <p name="name_2">Ольга</p>
 			    </div>
 			    <div class="review-card">
-				    <img src="avatar3.jpg" alt="Аватар Екатерины">
+				    <img src="img/photo_review/photo_3.jpg" alt="Аватар Екатерины">
 				    <p>Большой выбор рейсов и внимательное обслуживание. Рекомендую всем!</p>
-				    <p>Екатерина</p>
+				    <p name="name_3">Екатерина</p>
 			    </div>
 		  	</div>
-		    <a href="#" class="btn">Оставить отзыв</a>
+		    <button><a href="#" class="btn">Оставить отзыв</a></button>
         </section>
 		<!-- Секция экрана с контактной информацией-->
         <section class="contact-us">
@@ -81,9 +96,9 @@
 				<input type="text" placeholder="Имя">
 				<input type="tel" placeholder="+7 (___) ___-__-__">
 				<input type="email" placeholder="Почта">
-				<button type="submit">Отправить</button>
+				
 			</form>
-			<img src="http://placehold.it/600x300" alt="Логотип KLM">
+			<button type="submit">Отправить</button>
         </section>
 
     </main>
